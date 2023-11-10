@@ -1,0 +1,40 @@
+/* Estilos para la tarjeta */
+.tarjeta {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 50%;
+}
+
+.tarjeta-contenido {
+  flex: 1;
+}
+
+.tarjeta-titulo {
+  margin: 0;
+}
+
+.tarjeta-descripcion {
+  margin: 0;
+  margin-bottom: 10px;
+}
+.tarjeta-sku {
+  margin: 0;
+  margin-bottom: 10px;
+  color: rgb(17, 51, 163) ;
+}
+
+.tarjeta-cant-disponoble {
+  margin: 0;
+  margin-bottom: 10px;
+  color: dimgray;
+}
+
+.tarjeta-precio {
+  margin: 0;
+  font-weight: bold;
+  float: right;
+}
+
